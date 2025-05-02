@@ -29,16 +29,10 @@ This is the official code of [SATO: Straighten Any 3D Tubular Object](https://) 
 <img src="https://github.com/Yanfeng-Zhou/SATO/blob/main/figure/Zhou's%20Swept%20Frame.png" width="60%" >
 </p>
 
-$$ \vec{z}_i={\gamma}'(i)/|{\gamma}'(i)| $$
 
-$$  \vec{x}_i=\vec{x}_{i-1}cos\theta_i+  (\vec{a}_i\cdot\vec{x}_{i-1})\cdot\vec{a}_i(1-cos\theta_i)+(\vec{a}_i \vec{x}_{i-1})sin\theta_i $$
-
-$$  \vec{y}_i=\vec{y}_{i-1}cos\theta_i+ (\vec{a}_i\cdot\vec{y}_{i-1})\cdot\vec{a}_i(1-cos\theta_i)+(\vec{a}_i \vec{y}_{i-1})sin\theta_i $$
-
-$$ \vec{a}_i = \vec{z}_{i-1} × \vec{z}_i / | \vec{z}_{i-1} \times \vec{z}_i  | $$
-
-$$  \theta_i = cos^{-1}(z_{i-1}\cdot z_{i}/(| z_{i-1}|\cdot | z_{i}|)) $$
-
+<p align="center">
+<img src="https://github.com/Yanfeng-Zhou/SATO/blob/main/figure/Definition%20of%20Zhou's%20Swept%20Frame.png" >
+</p>
 
 ## Comparison of Different Swept Frame
 <p align="center">

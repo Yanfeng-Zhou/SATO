@@ -5,11 +5,11 @@ This is the official code of [SATO: Straighten Any 3D Tubular Object](https://) 
 # ***Let's straighten any curved 3D tubular object!***
 
 <p align="center">
-<img src="https://github.com/Yanfeng-Zhou/GobletNet/blob/main/figure/Overview.png" width="100%" >
+<img src="https://github.com/Yanfeng-Zhou/SATO/blob/main/figure/Qualitative%20Show%201.png" width="100%" >
 </p>
 
 <p align="center">
-<img src="https://github.com/Yanfeng-Zhou/GobletNet/blob/main/figure/Overview.png" width="100%" >
+<img src="https://github.com/Yanfeng-Zhou/SATO/blob/main/figure/Qualitative%20Show%203.png" width="100%" >
 </p>
 
 ## How to Use
@@ -21,12 +21,12 @@ This is the official code of [SATO: Straighten Any 3D Tubular Object](https://) 
 
 ## Straightening Pipeline
 <p align="center">
-<img src="https://github.com/Yanfeng-Zhou/GobletNet/blob/main/figure/Overview.png" width="100%" >
+<img src="https://github.com/Yanfeng-Zhou/SATO/blob/main/figure/Straightening%20Pipeline.png" width="100%" >
 </p>
 
 ## Zhou's Swept Frame
 <p align="center">
-<img src="https://github.com/Yanfeng-Zhou/GobletNet/blob/main/figure/Overview.png" width="100%" >
+<img src="https://github.com/Yanfeng-Zhou/SATO/blob/main/figure/Zhou's%20Swept%20Frame.png" width="100%" >
 </p>
 
 $$\begin{cases}
@@ -40,13 +40,13 @@ $$\begin{cases}
 
 ## Comparison of Different Swept Frame
 <p align="center">
-<img src="https://github.com/Yanfeng-Zhou/GobletNet/blob/main/figure/Overview.png" width="100%" >
+<img src="https://github.com/Yanfeng-Zhou/SATO/blob/main/figure/Comparison%20of%20Different%20Swept%20Frame.png" width="100%" >
 </p>
 
 
 ## Comparison of Different Straightening Methods
 <p align="center">
-<img src="https://github.com/Yanfeng-Zhou/GobletNet/blob/main/figure/Overview.png" width="100%" >
+<img src="https://github.com/Yanfeng-Zhou/SATO/blob/main/figure/Comparison%20of%20Different%20Straightening%20Methods.png" width="100%" >
 </p>
 
 ## Requirements

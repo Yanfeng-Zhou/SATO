@@ -26,10 +26,10 @@ This is the official code of [SATO: Straighten Any 3D Tubular Object](https://) 
 
 ## Zhou's Swept Frame
 <p align="center">
-<img src="https://github.com/Yanfeng-Zhou/SATO/blob/main/figure/Zhou's%20Swept%20Frame.png" width="100%" >
+<img src="https://github.com/Yanfeng-Zhou/SATO/blob/main/figure/Zhou's%20Swept%20Frame.png" width="60%" >
 </p>
 
-$$\begin{cases}
+>$$\begin{cases}
   \vec{z}_i={\gamma}'(i)/|{\gamma}'(i)| \\
   \vec{x}_i=\vec{x}_{i-1}\cos\theta_i+  (\vec{a}_i\cdot\vec{x}_{i-1})\cdot\vec{a}_i(1-\cos\theta_i)+(\vec{a}_i\times\vec{x}_{i-1})\sin\theta_i \\
   \vec{y}_i=\vec{y}_{i-1}\cos\theta_i+ (\vec{a}_i\cdot\vec{y}_{i-1})\cdot\vec{a}_i(1-\cos\theta_i)+(\vec{a}_i\times\vec{y}_{i-1})\sin\theta_i \\

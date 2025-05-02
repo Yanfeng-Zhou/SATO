@@ -13,9 +13,9 @@ from collections import Counter
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--seg_path', default='D:/Desktop/synthetic_circular_helix.tif')
-    parser.add_argument('--centerline_path', default='D:/Desktop/synthetic_circular_helix_.npy')
-    parser.add_argument('--save_straighten_path', default='D:/Desktop/synthetic_circular_helix_straighten_smooth.tif')
+    parser.add_argument('--seg_path', default='/demo_image/image/spine.mha')
+    parser.add_argument('--centerline_path', default='/demo_image/centerline/spine.npy')
+    parser.add_argument('--save_straighten_path', default='/demo_image/straightened/spine.tif')
     parser.add_argument('--crop_radius_ratio', default=5)
     args = parser.parse_args()
 

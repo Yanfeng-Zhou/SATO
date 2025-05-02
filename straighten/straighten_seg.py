@@ -38,12 +38,12 @@ def save_center_objects(image, x_size, y_size, z_size):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--seg_path', default='D:/Desktop/Straighten any 3D Tubular Object/demo_image/mask/ArteryObjAN212-11.tif')
-    parser.add_argument('--centerline_path', default='D:/Desktop/Straighten any 3D Tubular Object/demo_image/centerline/ArteryObjAN212-11_.npy')
-    parser.add_argument('--save_straighten_path', default='D:/Desktop/Straighten any 3D Tubular Object/demo_image/straightened/ArteryObjAN212-11.tif')
+    parser.add_argument('--seg_path', default='/demo_image/mask/neuron.tif')
+    parser.add_argument('--centerline_path', default='/demo_image/centerline/neuron.npy')
+    parser.add_argument('--save_straighten_path', default='/demo_image/straightened/neuron.tif')
     parser.add_argument('--crop_radius_ratio', default=5)
     parser.add_argument('--if_smooth', default=True)
-    parser.add_argument('--remove_small_holes_thr', default=500)
+    parser.add_argument('--remove_small_holes_thr', default=200)
     args = parser.parse_args()
 
     image = sitk.ReadImage(args.seg_path)

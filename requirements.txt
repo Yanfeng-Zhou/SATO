@@ -1,0 +1,5 @@
+numpy==1.21.6
+scikit_image==0.19.3
+scipy==1.7.3
+SimpleITK==2.5.0
+tqdm_pathos==0.4

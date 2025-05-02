@@ -29,16 +29,14 @@ def save_center_objects(image, x_size, y_size):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--seg_1_path', default='D:/Desktop/synthetic_double_helix_1.tif')
-    parser.add_argument('--seg_2_path', default='D:/Desktop/synthetic_double_helix_2.tif')
-    parser.add_argument('--seg_key_path', default='D:/Desktop/synthetic_double_helix_key.tif')
-    parser.add_argument('--centerline_1_path', default='D:/Desktop/synthetic_double_helix_1.npy')
-    parser.add_argument('--centerline_2_path', default='D:/Desktop/synthetic_double_helix_2.npy')
+    parser.add_argument('--seg_path', default='/demo_image/centerline/synthetic_double_helix.tif')
+    parser.add_argument('--centerline_1_path', default='/demo_image/centerline/synthetic_double_helix_1.npy')
+    parser.add_argument('--centerline_2_path', default='/demo_image/centerline/synthetic_double_helix_2.npy')
 
-    parser.add_argument('--save_straighten_1_path', default='D:/Desktop/synthetic_double_helix_straighten_1_smooth.tif')
-    parser.add_argument('--save_straighten_2_path', default='D:/Desktop/synthetic_double_helix_straighten_2_smooth.tif')
-    parser.add_argument('--save_straighten_key_path', default='D:/Desktop/synthetic_double_helix_straighten_key_smooth.tif')
-    parser.add_argument('--save_straighten_path', default='D:/Desktop/synthetic_double_helix_straighten_smooth.tif')
+    parser.add_argument('--save_straighten_1_path', default='/demo_image/straightened/synthetic_double_helix_straighten_1.tif')
+    parser.add_argument('--save_straighten_2_path', default='/demo_image/straightened/synthetic_double_helix_straighten_2.tif')
+    parser.add_argument('--save_straighten_key_path', default='/demo_image/straightened/synthetic_double_helix_straighten_key.tif')
+    parser.add_argument('--save_straighten_path', default='/demo_image/straightened/synthetic_double_helix_straighten.tif')
 
     parser.add_argument('--radius', default=10, type=int)
     parser.add_argument('--rotation_radius', default=50, type=int)
@@ -47,14 +45,17 @@ if __name__ == '__main__':
     parser.add_argument('--remove_small_holes_thr', default=500)
     args = parser.parse_args()
 
-    image_1 = sitk.ReadImage(args.seg_1_path)
-    image_1 = sitk.GetArrayFromImage(image_1)
+    image = sitk.ReadImage(args.seg_path)
+    image = sitk.GetArrayFromImage(image)
 
-    image_2 = sitk.ReadImage(args.seg_2_path)
-    image_2 = sitk.GetArrayFromImage(image_2)
+    image_1 = image.copy()
+    image_1[image != 1] = 0
 
-    image_key = sitk.ReadImage(args.seg_key_path)
-    image_key = sitk.GetArrayFromImage(image_key)
+    image_2 = image.copy()
+    image_2[image != 2] = 0
+
+    image_key = image.copy()
+    image_key[image != 3] = 0
 
     centerline_1 = np.load(args.centerline_1_path, allow_pickle=True)
     centerline_1 = centerline_1.tolist()[0]

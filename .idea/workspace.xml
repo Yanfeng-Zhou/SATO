@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0a6ae68-5611-4eaa-ba87-61d80547f0e7" name="Default Changelist" comment="" />
+    <list default="true" id="f0a6ae68-5611-4eaa-ba87-61d80547f0e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_image/centerline/microtublue.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_image/centerline/mitochondria.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_image/mask/synthetic_circular_helix.tif" beforeDir="false" afterPath="$PROJECT_DIR$/demo_image/mask/synthetic_circular_helix.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_image/mask/synthetic_double_helix.tif" beforeDir="false" afterPath="$PROJECT_DIR$/demo_image/mask/synthetic_double_helix.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_image/straightened/aneurysm.tif" beforeDir="false" afterPath="$PROJECT_DIR$/demo_image/straightened/aneurysm.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_image/straightened/aneurysm_.tif" beforeDir="false" afterPath="$PROJECT_DIR$/demo_image/straightened/aneurysm_.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_image/straightened/colon.tif" beforeDir="false" afterPath="$PROJECT_DIR$/demo_image/straightened/colon.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_image/straightened/microtublue.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_image/straightened/mitochondria.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_image/straightened/neuron.tif" beforeDir="false" afterPath="$PROJECT_DIR$/demo_image/straightened/neuron.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_image/straightened/spine.tif" beforeDir="false" afterPath="$PROJECT_DIR$/demo_image/straightened/spine.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_image/straightened/stenosis.tif" beforeDir="false" afterPath="$PROJECT_DIR$/demo_image/straightened/stenosis.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_image/straightened/stenosis_.tif" beforeDir="false" afterPath="$PROJECT_DIR$/demo_image/straightened/stenosis_.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_image/straightened/synthetic_circular_helix.tif" beforeDir="false" afterPath="$PROJECT_DIR$/demo_image/straightened/synthetic_circular_helix.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_image/straightened/synthetic_double_helix.tif" beforeDir="false" afterPath="$PROJECT_DIR$/demo_image/straightened/synthetic_double_helix.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/straighten/parallel_straighten.py" beforeDir="false" afterPath="$PROJECT_DIR$/straighten/parallel_straighten.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/straighten/straighten_double_helix.py" beforeDir="false" afterPath="$PROJECT_DIR$/straighten/straighten_double_helix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/straighten/straighten_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/straighten/straighten_img.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/straighten/straighten_seg.py" beforeDir="false" afterPath="$PROJECT_DIR$/straighten/straighten_seg.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +37,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2bWYnqQnsKsxImv1WxrdTStuLkJ" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -120,11 +152,23 @@
       <updated>1706332471293</updated>
       <workItem from="1706332472368" duration="3783000" />
       <workItem from="1706339875392" duration="69000" />
+      <workItem from="1746175110826" duration="3119000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Code$vis_double_helix.coverage" NAME="vis_double_helix Coverage Results" MODIFIED="1706339405471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vis" />

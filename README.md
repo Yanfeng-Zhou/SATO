@@ -26,12 +26,12 @@ This is the official code of [SATO: Straighten Any 3D Tubular Object](https://) 
 
 ## Zhou's Swept Frame
 <p align="center">
-<img src="https://github.com/Yanfeng-Zhou/SATO/blob/main/figure/Zhou's%20Swept%20Frame.png" width="60%" >
+<img src="https://github.com/Yanfeng-Zhou/SATO/blob/main/figure/Zhou's%20Swept%20Frame.png" width="50%" >
 </p>
 
 
 <p align="center">
-<img src="https://github.com/Yanfeng-Zhou/SATO/blob/main/figure/Definition%20of%20Zhou's%20Swept%20Frame.png" >
+<img src="https://github.com/Yanfeng-Zhou/SATO/blob/main/figure/Definition%20of%20Zhou's%20Swept%20Frame.png" width="50%" >
 </p>
 
 ## Comparison of Different Swept Frame
